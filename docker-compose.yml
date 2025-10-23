@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+    jangdocker:
+        image: dockertest:0.0.1
+        ports:
+        - "8080"
