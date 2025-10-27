@@ -13,4 +13,9 @@ public class TestController {
         return "hello";
     }
 
+    @GetMapping("/v1/bye")
+    public String bye(){
+        return "bye";
+    }
+
 }
